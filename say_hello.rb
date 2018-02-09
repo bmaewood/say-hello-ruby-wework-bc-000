@@ -1,3 +1,6 @@
-def say_hello(name = "Ruby Programmer")
-  puts "Hello #{name}!"
+say_hello = "ruby programmer"
+
+def say_hello(name)
+	puts "Hello #{name}!"
 end
+
